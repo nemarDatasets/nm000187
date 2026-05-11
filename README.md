@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000187-blue)](https://doi.org/10.82901/nemar.nm000187)
+
 # BigP3BCI Study N — 9x8 dry/wet electrode comparison (8 ALS subjects)
 
 BigP3BCI Study N — 9x8 dry/wet electrode comparison (8 ALS subjects).
