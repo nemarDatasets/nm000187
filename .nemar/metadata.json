@@ -1,0 +1,102 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Boyla Mainsah": {},
+    "Chance Fleeting": {
+      "orcid": "0000-0002-6271-4952",
+      "affiliations": [
+        {
+          "name": "Duke University"
+        }
+      ]
+    },
+    "Thomas Balmat": {},
+    "Eric Sellers": {},
+    "Leslie Collins": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.13026/0byy-ry86",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000187",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000187",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "BigP3BCI Study N — 9x8 dry/wet electrode comparison (8 ALS subjects)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "366.4 MB (161 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 8 ALS patients performing a P300-based brain-computer interface speller task using a 9x8 character grid. Participants completed 2 sessions each, with 16-channel EEG data acquired at 256 Hz using dry and wet electrode configurations for comparison. The dataset is part of the BigP3BCI study, the largest public P300 BCI dataset, and includes standardized HED event annotations for target and non-target visual stimuli.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels in a standard 10-20 montage at a sampling rate of 256 Hz with 60 Hz line frequency notch filtering. Participants performed a visual P300 speller task with 9x8 character grids. Each trial consisted of a 1.0 second epoch following stimulus presentation, with events labeled as Target or NonTarget. Data were processed using the MOABB (Mother of All BCI Benchmarks) framework version 1.5.0.",
+  "keywords": [
+    {
+      "term": "E1A-Associated p300 Protein",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050881"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Amyotrophic Lateral Sclerosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "speller paradigm"
+    }
+  ],
+  "source_hash": "55378098c3c1f11da232d7a4553373ea4d4be6c6762eaedf42c2f777e1f9f375"
+}
