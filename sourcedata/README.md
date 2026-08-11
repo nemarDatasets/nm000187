@@ -8,8 +8,8 @@ URL remaining reachable.
 |---|---|
 | MOABB class | `moabb.datasets.Mainsah2025_N` (moabb 1.5.0) |
 | Retrieved | 2026-08-11 |
-| Files | 60 |
-| Total size | 361.4 MB |
+| Files | 160 |
+| Total size | 939.8 MB |
 | License | CC-BY-4.0 |
 | Upstream DOI | 10.13026/0byy-ry86 |
 
