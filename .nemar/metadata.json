@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study N — 9x8 dry/wet electrode comparison (8 ALS subjects)",
-  "description": "This derivative dataset presents a processed subset of the BigP3BCI study, focusing on Study N which compares 9x8 dry and wet electrode configurations in 8 amyotrophic lateral sclerosis (ALS) patients. The dataset contains EEG recordings from a P300-based brain-computer interface speller paradigm, with 2 sessions per subject and standardized event annotations using HED 8.4.0. Data were acquired at 256 Hz using a g.USBamp amplifier with 16 channels in a standard 10-20 montage.",
-  "methods_description": "EEG data were acquired at 256 Hz sampling rate using a g.USBamp (g.tec) amplifier with 16 channels arranged in a standard 10-20 montage. Subjects performed a P300 speller task with visual stimulus presentation on 9x8 character grids. The paradigm included target and non-target stimulus classes with a trial interval of 0-1.0 seconds. Data were processed using MOABB (Mother of All BCI Benchmarks) version 1.5.0 with P300 ERP feature extraction and calibration-then-test cross-validation methodology.",
+  "description": "This derivative dataset presents EEG recordings from 8 ALS patients participating in the BigP3BCI Study N, a P300-based brain-computer interface investigation comparing 9x8 dry and wet electrode configurations. The study comprises 2 sessions per subject with visual speller paradigm stimuli recorded at 256 Hz using 16-channel EEG montage. This subset is part of the larger BigP3BCI initiative, the most comprehensive public P300 BCI dataset encompassing ~267 subjects across 20 studies.",
+  "methods_description": "EEG data were acquired at 256 Hz sampling rate using 16 channels in standard 1020 montage with g.USBamp hardware (g.tec). The P300 paradigm employed a 9x8 character grid with visual stimulus presentation. Subjects performed 2 sessions each, with target and non-target event classifications. HED 8.4.0 event annotations were applied to classify sensory and experimental stimulus events.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,19 +22,20 @@
   },
   "keywords": [
     {
-      "term": "E1A-Associated p300 Protein",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050881"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "amyotrophic lateral sclerosis"
+      "term": "P300"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Amyotrophic Lateral Sclerosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
     },
     {
       "term": "Event-Related Potentials, P300",
@@ -46,7 +47,7 @@
       "term": "speller paradigm"
     },
     {
-      "term": "visual perception"
+      "term": "electrode comparison"
     }
   ],
   "related_identifiers": [
@@ -82,7 +83,7 @@
     "eeg"
   ],
   "sizes": [
-    "727.8 MB (221 files)"
+    "1.3 GB (321 files)"
   ],
   "formats": [
     ".bdf",
@@ -93,5 +94,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "cd28f89c8f85a948c9a3f389ee7487ddf46adff9aa7d28754803a55232354331"
+  "source_hash": "704ee1d686b8317db104c98a5a78b5232c3e788c6cfbe9b19a6c2a6c8accfdc4"
 }
