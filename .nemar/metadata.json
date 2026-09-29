@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study N — 9x8 dry/wet electrode comparison (8 ALS subjects)",
-  "description": "This dataset comprises EEG recordings from 8 ALS patients participating in a P300-based brain-computer interface speller study, comparing 9x8 dry and wet electrode configurations. Subjects completed 2 sessions each with visual stimulus presentation paradigms designed to detect target and non-target events. The data were acquired at 256 Hz using a g.USBamp amplifier with 16 channels in a standard 10-20 montage and represent a subset of the larger BigP3BCI dataset.",
-  "methods_description": "EEG data were acquired at 256 Hz sampling rate using a g.USBamp amplifier (g.tec) with 16 channels arranged in a standard 10-20 montage. The study employed a P300 paradigm with visual stimulus presentation in a 9x8 character grid speller configuration. Line frequency was 60 Hz. Subjects completed 2 sessions with target and non-target event classifications. HED 8.4.0 event annotations were applied to classify sensory and experimental stimulus events.",
+  "description": "This dataset is a BIDS-formatted derivative of Study N from the bigP3BCI collection, a large public P300-based brain-computer interface (BCI) resource. It contains 16-channel EEG recorded over two sessions from 8 participants with amyotrophic lateral sclerosis (ALS) using a 9x8 character speller grid. The study compares dry and wet electrodes, with target and non-target flash events annotated with HED tags.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) at 256 Hz from 16 channels placed according to the standard 10-20 montage. Participants used a visual P300 speller with online feedback in a laboratory setting. Target and non-target stimuli were labeled, and trials covered a 0-1.0 s interval. The line frequency was 60 Hz.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -31,16 +31,18 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "amyotrophic lateral sclerosis"
+      "term": "speller"
     },
     {
-      "term": "event-related potential"
+      "term": "Amyotrophic Lateral Sclerosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
     },
     {
-      "term": "speller paradigm"
+      "term": "dry electrodes"
     },
     {
-      "term": "electrode comparison"
+      "term": "event-related potentials"
     }
   ],
   "related_identifiers": [
@@ -76,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.3 GB (321 files)"
+    "1.22 GB (321 files)"
   ],
   "formats": [
     ".bdf",
